@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16356B616C9594AF6F16B01E /* libPods-Financial App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66D410FAABFDFA1E9870E99F /* libPods-Financial App.a */; };
+		3C773A8D20A73766004C1606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773A8C20A73766004C1606 /* AppDelegate.m */; };
+		3C773A9320A73766004C1606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C773A9120A73766004C1606 /* Main.storyboard */; };
+		3C773A9520A73770004C1606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C773A9420A73770004C1606 /* Assets.xcassets */; };
+		3C773A9820A73770004C1606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C773A9620A73770004C1606 /* LaunchScreen.storyboard */; };
+		3C773A9B20A73770004C1606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773A9A20A73770004C1606 /* main.m */; };
+		3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA220A74B10004C1606 /* FASignInViewController.m */; };
+		3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */; };
+		3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA720A751F6004C1606 /* FAMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C773A8820A73766004C1606 /* Financial App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Financial App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C773A8B20A73766004C1606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C773A8C20A73766004C1606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C773A9220A73766004C1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C773A9420A73770004C1606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C773A9720A73770004C1606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C773A9920A73770004C1606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C773A9A20A73770004C1606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C773AA120A74B10004C1606 /* FASignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FASignInViewController.h; sourceTree = "<group>"; };
+		3C773AA220A74B10004C1606 /* FASignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FASignInViewController.m; sourceTree = "<group>"; };
+		3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C773AA620A751F6004C1606 /* FAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
+		3C773AA720A751F6004C1606 /* FAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
+		66D410FAABFDFA1E9870E99F /* libPods-Financial App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Financial App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB35E63AF08470DF8709AA7B /* Pods-Financial App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.debug.xcconfig"; sourceTree = "<group>"; };
+		FB2FF36B8875FCBC4353F124 /* Pods-Financial App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C773A8520A73766004C1606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16356B616C9594AF6F16B01E /* libPods-Financial App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C773A7F20A73766004C1606 = {
+			isa = PBXGroup;
+			children = (
+				3C773A8A20A73766004C1606 /* Financial App */,
+				3C773A8920A73766004C1606 /* Products */,
+				41C1E388081E2355ECFD52D1 /* Pods */,
+				59D8BB7CB30E629FF296D17B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C773A8920A73766004C1606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C773A8820A73766004C1606 /* Financial App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C773A8A20A73766004C1606 /* Financial App */ = {
+			isa = PBXGroup;
+			children = (
+				3C773A8B20A73766004C1606 /* AppDelegate.h */,
+				3C773A8C20A73766004C1606 /* AppDelegate.m */,
+				3C773AA120A74B10004C1606 /* FASignInViewController.h */,
+				3C773AA220A74B10004C1606 /* FASignInViewController.m */,
+				3C773AA620A751F6004C1606 /* FAMainViewController.h */,
+				3C773AA720A751F6004C1606 /* FAMainViewController.m */,
+				3C773A9120A73766004C1606 /* Main.storyboard */,
+				3C773A9420A73770004C1606 /* Assets.xcassets */,
+				3C773A9620A73770004C1606 /* LaunchScreen.storyboard */,
+				3C773A9920A73770004C1606 /* Info.plist */,
+				3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */,
+				3C773A9A20A73770004C1606 /* main.m */,
+			);
+			path = "Financial App";
+			sourceTree = "<group>";
+		};
+		41C1E388081E2355ECFD52D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB35E63AF08470DF8709AA7B /* Pods-Financial App.debug.xcconfig */,
+				FB2FF36B8875FCBC4353F124 /* Pods-Financial App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59D8BB7CB30E629FF296D17B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66D410FAABFDFA1E9870E99F /* libPods-Financial App.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C773A8720A73766004C1606 /* Financial App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C773A9E20A73770004C1606 /* Build configuration list for PBXNativeTarget "Financial App" */;
+			buildPhases = (
+				02AD28A5D0BAF78976A2692B /* [CP] Check Pods Manifest.lock */,
+				3C773A8420A73766004C1606 /* Sources */,
+				3C773A8520A73766004C1606 /* Frameworks */,
+				3C773A8620A73766004C1606 /* Resources */,
+				B326295EE87875FDBEF1231E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Financial App";
+			productName = "Financial App";
+			productReference = 3C773A8820A73766004C1606 /* Financial App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C773A8020A73766004C1606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FA;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Nadiia Ivanova";
+				TargetAttributes = {
+					3C773A8720A73766004C1606 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C773A8320A73766004C1606 /* Build configuration list for PBXProject "Financial App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C773A7F20A73766004C1606;
+			productRefGroup = 3C773A8920A73766004C1606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C773A8720A73766004C1606 /* Financial App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C773A8620A73766004C1606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C773A9820A73770004C1606 /* LaunchScreen.storyboard in Resources */,
+				3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */,
+				3C773A9520A73770004C1606 /* Assets.xcassets in Resources */,
+				3C773A9320A73766004C1606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02AD28A5D0BAF78976A2692B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Financial App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B326295EE87875FDBEF1231E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Financial App/Pods-Financial App-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Financial App/Pods-Financial App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C773A8420A73766004C1606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */,
+				3C773A9B20A73770004C1606 /* main.m in Sources */,
+				3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */,
+				3C773A8D20A73766004C1606 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C773A9120A73766004C1606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C773A9220A73766004C1606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C773A9620A73770004C1606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C773A9720A73770004C1606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C773A9C20A73770004C1606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C773A9D20A73770004C1606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C773A9F20A73770004C1606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB35E63AF08470DF8709AA7B /* Pods-Financial App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KU3Q9522W;
+				INFOPLIST_FILE = "Financial App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uchuneko.financialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C773AA020A73770004C1606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2FF36B8875FCBC4353F124 /* Pods-Financial App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KU3Q9522W;
+				INFOPLIST_FILE = "Financial App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uchuneko.financialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C773A8320A73766004C1606 /* Build configuration list for PBXProject "Financial App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C773A9C20A73770004C1606 /* Debug */,
+				3C773A9D20A73770004C1606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C773A9E20A73770004C1606 /* Build configuration list for PBXNativeTarget "Financial App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C773A9F20A73770004C1606 /* Debug */,
+				3C773AA020A73770004C1606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C773A8020A73766004C1606 /* Project object */;
+}

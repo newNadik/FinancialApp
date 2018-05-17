@@ -18,6 +18,9 @@
 		3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA720A751F6004C1606 /* FAMainViewController.m */; };
 		3C981E3A20ADA3DA00C84DF9 /* streamline.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
 		3C981E3B20ADA40000C84DF9 /* streamline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
+		3C981E3F20ADA72D00C84DF9 /* FAMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E3E20ADA72D00C84DF9 /* FAMenuButton.m */; };
+		3C981E4120ADA73A00C84DF9 /* FAMenuButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C981E4020ADA73A00C84DF9 /* FAMenuButton.xib */; };
+		3C981E4420ADB20C00C84DF9 /* FAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E4320ADB20C00C84DF9 /* FAConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,11 @@
 		3C773AA620A751F6004C1606 /* FAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
 		3C773AA720A751F6004C1606 /* FAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
 		3C981E3920AD9AE800C84DF9 /* streamline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = streamline.ttf; sourceTree = "<group>"; };
+		3C981E3D20ADA72D00C84DF9 /* FAMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMenuButton.h; sourceTree = "<group>"; };
+		3C981E3E20ADA72D00C84DF9 /* FAMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMenuButton.m; sourceTree = "<group>"; };
+		3C981E4020ADA73A00C84DF9 /* FAMenuButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAMenuButton.xib; sourceTree = "<group>"; };
+		3C981E4220ADB20C00C84DF9 /* FAConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAConstants.h; sourceTree = "<group>"; };
+		3C981E4320ADB20C00C84DF9 /* FAConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAConstants.m; sourceTree = "<group>"; };
 		66D410FAABFDFA1E9870E99F /* libPods-Financial App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Financial App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35E63AF08470DF8709AA7B /* Pods-Financial App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.debug.xcconfig"; sourceTree = "<group>"; };
 		FB2FF36B8875FCBC4353F124 /* Pods-Financial App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +83,9 @@
 			children = (
 				3C773A8B20A73766004C1606 /* AppDelegate.h */,
 				3C773A8C20A73766004C1606 /* AppDelegate.m */,
+				3C981E4220ADB20C00C84DF9 /* FAConstants.h */,
+				3C981E4320ADB20C00C84DF9 /* FAConstants.m */,
+				3C981E3C20ADA70300C84DF9 /* Custom Views */,
 				3C773AA120A74B10004C1606 /* FASignInViewController.h */,
 				3C773AA220A74B10004C1606 /* FASignInViewController.m */,
 				3C773AA620A751F6004C1606 /* FAMainViewController.h */,
@@ -88,6 +99,16 @@
 				3C981E3920AD9AE800C84DF9 /* streamline.ttf */,
 			);
 			path = "Financial App";
+			sourceTree = "<group>";
+		};
+		3C981E3C20ADA70300C84DF9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C981E3D20ADA72D00C84DF9 /* FAMenuButton.h */,
+				3C981E3E20ADA72D00C84DF9 /* FAMenuButton.m */,
+				3C981E4020ADA73A00C84DF9 /* FAMenuButton.xib */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		41C1E388081E2355ECFD52D1 /* Pods */ = {
@@ -168,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C981E3B20ADA40000C84DF9 /* streamline.ttf in Resources */,
+				3C981E4120ADA73A00C84DF9 /* FAMenuButton.xib in Resources */,
 				3C773A9820A73770004C1606 /* LaunchScreen.storyboard in Resources */,
 				3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */,
 				3C773A9520A73770004C1606 /* Assets.xcassets in Resources */,
@@ -229,7 +251,9 @@
 				3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */,
 				3C773A9B20A73770004C1606 /* main.m in Sources */,
 				3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */,
+				3C981E4420ADB20C00C84DF9 /* FAConstants.m in Sources */,
 				3C773A8D20A73766004C1606 /* AppDelegate.m in Sources */,
+				3C981E3F20ADA72D00C84DF9 /* FAMenuButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "FAMainViewController.h"
 #import <SDWebImage/UIImageView+WebCache.h>
+#import "FAMenuButton.h"
 
 @import Firebase;
 
@@ -21,7 +22,7 @@
 @property IBOutlet UILabel *usernameLabel;
 @property IBOutlet UILabel *emailLabel;
 
-@property IBOutlet UILabel *logoutIconLabel;
+@property IBOutlet FAMenuButton *logoutButton;
 
 @end
 
@@ -33,7 +34,7 @@
     [self.emailLabel setText:[FIRAuth auth].currentUser.email];
     [self.usernameLabel setText:[FIRAuth auth].currentUser.displayName];
     [self.userAvatarImageView sd_setImageWithURL:[FIRAuth auth].currentUser.photoURL];
-    [self.logoutIconLabel setText:@"\ue26c"];
+    [self.logoutButton setIcon:@"\ue26c"];
 }
 
 - (IBAction)menuPressed:(id)sender{

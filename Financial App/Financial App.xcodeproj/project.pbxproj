@@ -16,6 +16,8 @@
 		3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA220A74B10004C1606 /* FASignInViewController.m */; };
 		3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */; };
 		3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA720A751F6004C1606 /* FAMainViewController.m */; };
+		3C981E3A20ADA3DA00C84DF9 /* streamline.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
+		3C981E3B20ADA40000C84DF9 /* streamline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,7 @@
 		3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C773AA620A751F6004C1606 /* FAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
 		3C773AA720A751F6004C1606 /* FAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
+		3C981E3920AD9AE800C84DF9 /* streamline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = streamline.ttf; sourceTree = "<group>"; };
 		66D410FAABFDFA1E9870E99F /* libPods-Financial App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Financial App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB35E63AF08470DF8709AA7B /* Pods-Financial App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.debug.xcconfig"; sourceTree = "<group>"; };
 		FB2FF36B8875FCBC4353F124 /* Pods-Financial App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Financial App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Financial App/Pods-Financial App.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 				3C773A9920A73770004C1606 /* Info.plist */,
 				3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */,
 				3C773A9A20A73770004C1606 /* main.m */,
+				3C981E3920AD9AE800C84DF9 /* streamline.ttf */,
 			);
 			path = "Financial App";
 			sourceTree = "<group>";
@@ -163,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C981E3B20ADA40000C84DF9 /* streamline.ttf in Resources */,
 				3C773A9820A73770004C1606 /* LaunchScreen.storyboard in Resources */,
 				3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */,
 				3C773A9520A73770004C1606 /* Assets.xcassets in Resources */,
@@ -220,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C981E3A20ADA3DA00C84DF9 /* streamline.ttf in Sources */,
 				3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */,
 				3C773A9B20A73770004C1606 /* main.m in Sources */,
 				3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */,

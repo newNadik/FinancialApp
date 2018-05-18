@@ -23,7 +23,11 @@
     [GIDSignIn sharedInstance].uiDelegate = self;
     self.arrowsAnimationDelta = 10.f;
     self.isFirstAnimation = YES;
-    [self animateArrows];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [self arrowsAnimationStart];
 }
 
 - (void)animateArrows {

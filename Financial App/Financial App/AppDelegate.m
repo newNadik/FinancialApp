@@ -21,6 +21,9 @@
     
     [GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
     [GIDSignIn sharedInstance].delegate = self;
+    FIRFirestoreSettings *settings = [[FIRFirestoreSettings alloc] init];
+    settings.persistenceEnabled = YES;
+    [FIRFirestore firestore].settings = settings;
     
     if(![FIRAuth auth].currentUser) {
         [self.window setRootViewController:[[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"SignInViewController"]];

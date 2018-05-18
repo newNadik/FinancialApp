@@ -16,6 +16,7 @@
 		3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA220A74B10004C1606 /* FASignInViewController.m */; };
 		3C773AA520A74CF3004C1606 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */; };
 		3C773AA820A751F6004C1606 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C773AA720A751F6004C1606 /* FAMainViewController.m */; };
+		3C819EEA20AF389400F3FECC /* FACreateBudgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C819EE920AF389400F3FECC /* FACreateBudgetViewController.m */; };
 		3C981E3A20ADA3DA00C84DF9 /* streamline.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
 		3C981E3B20ADA40000C84DF9 /* streamline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C981E3920AD9AE800C84DF9 /* streamline.ttf */; };
 		3C981E3F20ADA72D00C84DF9 /* FAMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C981E3E20ADA72D00C84DF9 /* FAMenuButton.m */; };
@@ -37,6 +38,8 @@
 		3C773AA420A74CF3004C1606 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3C773AA620A751F6004C1606 /* FAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
 		3C773AA720A751F6004C1606 /* FAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
+		3C819EE820AF389400F3FECC /* FACreateBudgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FACreateBudgetViewController.h; sourceTree = "<group>"; };
+		3C819EE920AF389400F3FECC /* FACreateBudgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FACreateBudgetViewController.m; sourceTree = "<group>"; };
 		3C981E3920AD9AE800C84DF9 /* streamline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = streamline.ttf; sourceTree = "<group>"; };
 		3C981E3D20ADA72D00C84DF9 /* FAMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAMenuButton.h; sourceTree = "<group>"; };
 		3C981E3E20ADA72D00C84DF9 /* FAMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAMenuButton.m; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		3C773A8A20A73766004C1606 /* Financial App */ = {
 			isa = PBXGroup;
 			children = (
+				3C819EE720AF33A100F3FECC /* Model */,
 				3C773A8B20A73766004C1606 /* AppDelegate.h */,
 				3C773A8C20A73766004C1606 /* AppDelegate.m */,
 				3C981E4220ADB20C00C84DF9 /* FAConstants.h */,
@@ -90,6 +94,8 @@
 				3C773AA220A74B10004C1606 /* FASignInViewController.m */,
 				3C773AA620A751F6004C1606 /* FAMainViewController.h */,
 				3C773AA720A751F6004C1606 /* FAMainViewController.m */,
+				3C819EE820AF389400F3FECC /* FACreateBudgetViewController.h */,
+				3C819EE920AF389400F3FECC /* FACreateBudgetViewController.m */,
 				3C773A9120A73766004C1606 /* Main.storyboard */,
 				3C773A9420A73770004C1606 /* Assets.xcassets */,
 				3C773A9620A73770004C1606 /* LaunchScreen.storyboard */,
@@ -99,6 +105,13 @@
 				3C981E3920AD9AE800C84DF9 /* streamline.ttf */,
 			);
 			path = "Financial App";
+			sourceTree = "<group>";
+		};
+		3C819EE720AF33A100F3FECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3C981E3C20ADA70300C84DF9 /* Custom Views */ = {
@@ -253,6 +266,7 @@
 				3C773AA320A74B10004C1606 /* FASignInViewController.m in Sources */,
 				3C981E4420ADB20C00C84DF9 /* FAConstants.m in Sources */,
 				3C773A8D20A73766004C1606 /* AppDelegate.m in Sources */,
+				3C819EEA20AF389400F3FECC /* FACreateBudgetViewController.m in Sources */,
 				3C981E3F20ADA72D00C84DF9 /* FAMenuButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

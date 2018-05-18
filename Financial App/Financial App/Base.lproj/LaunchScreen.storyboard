@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +19,34 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-jC-geG">
+                                <rect key="frame" x="93" y="239.5" width="187.5" height="187"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="h1L-jC-geG" secondAttribute="height" id="rno-th-Inr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2" translatesAutoresizingMaskIntoConstraints="NO" id="cCh-5M-Ucz">
+                                <rect key="frame" x="93" y="239.5" width="187.5" height="187"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo3" translatesAutoresizingMaskIntoConstraints="NO" id="APE-cd-j6T">
+                                <rect key="frame" x="93" y="239.5" width="187.5" height="187"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.48627450980392156" green="0.77647058823529413" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cCh-5M-Ucz" firstAttribute="leading" secondItem="h1L-jC-geG" secondAttribute="leading" id="18S-0N-hFf"/>
+                            <constraint firstItem="cCh-5M-Ucz" firstAttribute="bottom" secondItem="h1L-jC-geG" secondAttribute="bottom" id="7iz-gn-NfH"/>
+                            <constraint firstItem="cCh-5M-Ucz" firstAttribute="width" secondItem="h1L-jC-geG" secondAttribute="width" id="Dj3-KO-1Es"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ecu-YN-eIy"/>
+                            <constraint firstItem="cCh-5M-Ucz" firstAttribute="height" secondItem="h1L-jC-geG" secondAttribute="height" id="QZZ-LW-Qpl"/>
+                            <constraint firstItem="APE-cd-j6T" firstAttribute="height" secondItem="h1L-jC-geG" secondAttribute="height" id="SHI-xj-8J2"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ci1-xu-xK4"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="width" secondItem="APE-cd-j6T" secondAttribute="width" id="cyU-AV-MXb"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="fH7-M6-KiG"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="leading" secondItem="APE-cd-j6T" secondAttribute="leading" id="pzX-LB-ezU"/>
+                            <constraint firstItem="h1L-jC-geG" firstAttribute="bottom" secondItem="APE-cd-j6T" secondAttribute="bottom" id="u34-9D-cpS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -26,4 +55,9 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo1" width="1000" height="1000"/>
+        <image name="logo2" width="1000" height="1000"/>
+        <image name="logo3" width="1000" height="1000"/>
+    </resources>
 </document>
